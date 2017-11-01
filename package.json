@@ -1,0 +1,39 @@
+{
+  "name": "twitter-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha tests/*.js -u tdd -A -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnellebalane/twitter-clone.git"
+  },
+  "author": "Arnelle Balane <arnellebalane@gmail.com> (https://arnellebalane.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnellebalane/twitter-clone/issues"
+  },
+  "homepage": "https://github.com/arnellebalane/twitter-clone#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consolidate": "^0.14.5",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "nconf": "^0.8.5",
+    "nunjucks": "^3.0.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.3.0",
+    "pg-json-data-export": "^0.10.4",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  }
+}
